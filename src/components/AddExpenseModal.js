@@ -19,7 +19,7 @@ function AddExpenseModal({ show, handleClose, defaultBudgetId}) {
         )
         handleClose()
     }
-
+// 
   return (
     <Modal show={show} onHide={handleClose}>
       <Form onSubmit={handleSubmit}>
